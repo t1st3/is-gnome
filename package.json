@@ -1,0 +1,45 @@
+{
+  "name": "is-gnome",
+  "version": "0.1.0",
+  "description": "Check if the current session runs Gnome desktop ",
+  "license": "MIT",
+  "repository": "t1st3/is-gnome",
+  "main": "index.js",
+  "author": {
+    "name": "t1st3",
+    "email": "contact@tiste.org",
+    "url": "tiste.org"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "coverage": "nyc ava",
+    "precoveralls": "npm run coverage",
+    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gnome",
+    "desktop",
+    "environment",
+    "detect",
+    "check"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*",
+    "coveralls": "^2.11.12",
+    "nyc": "^8.1.0",
+    "xo": "*"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
