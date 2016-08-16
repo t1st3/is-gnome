@@ -4,14 +4,14 @@
   "description": "Check if the current session runs Gnome desktop ",
   "license": "MIT",
   "repository": "t1st3/is-gnome",
-  "main": "index.js",
   "author": {
     "name": "t1st3",
     "email": "contact@tiste.org",
     "url": "tiste.org"
   },
+  "main": "index.js",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.12.0"
   },
   "scripts": {
     "test": "xo && ava",
