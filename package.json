@@ -29,7 +29,9 @@
     "detect",
     "check"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "pify": "^2.3.0"
+  },
   "devDependencies": {
     "ava": "*",
     "coveralls": "^2.11.12",
