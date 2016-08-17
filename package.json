@@ -1,6 +1,6 @@
 {
   "name": "is-gnome",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Check if the current session runs Gnome desktop ",
   "license": "MIT",
   "repository": "t1st3/is-gnome",
