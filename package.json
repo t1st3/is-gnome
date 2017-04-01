@@ -1,6 +1,6 @@
 {
   "name": "is-gnome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if the current session runs Gnome desktop ",
   "license": "MIT",
   "repository": "t1st3/is-gnome",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "ava": "0.18.2",
-    "nyc": "^10.0.0",
+    "nyc": "^10.2.0",
     "xo": "0.19.0"
   },
   "nyc": {
