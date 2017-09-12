@@ -6,8 +6,8 @@
   "repository": "t1st3/is-gnome",
   "author": {
     "name": "t1st3",
-    "email": "contact@tiste.org",
-    "url": "tiste.org"
+    "email": "contact@t1st3.com",
+    "url": "t1st3.com"
   },
   "main": "index.js",
   "engines": {
@@ -31,8 +31,8 @@
   },
   "devDependencies": {
     "ava": "^0.22.0",
-    "nyc": "^11.0.1",
-    "xo": "^0.19.0"
+    "nyc": "^11.2.1",
+    "xo": "^0.18.2"
   },
   "nyc": {
     "reporter": [
