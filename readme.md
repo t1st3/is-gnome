@@ -1,5 +1,7 @@
 # is-gnome [![Build Status Travis](https://travis-ci.org/t1st3/is-gnome.svg?branch=master)](https://travis-ci.org/t1st3/is-gnome)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/t1st3/is-gnome.svg)](https://greenkeeper.io/)
+
 > Check if the current session runs [Gnome desktop](https://www.gnome.org/).
 
 
