@@ -4,7 +4,7 @@ const exec = require('child_process').exec;
 const pify = require('pify');
 
 const f = function (cb) {
-	exec('ps -e | grep -E \'^.* gnome-session$\'', (error, stdout) => {
+	exec('ps -e | grep -E \'.*gnome-session\'', (error, stdout) => {
 		if (error) {
 			cb(null, false);
 		}
