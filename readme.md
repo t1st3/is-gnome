@@ -15,7 +15,7 @@ $ npm install --save is-gnome
 ```js
 const isGnome = require('is-gnome');
 
-isGnome().then(data => {
+isGnome.then(data => {
   console.log(data);
   //=> true or false
 });
